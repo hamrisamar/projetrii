@@ -1,0 +1,36 @@
+body {
+    background: #868080;
+    margin: 0;
+  }
+h1{
+    font-size: 3rem; /* Taille du titre */          
+    text-align: center; /* Alignement du texte au centre (optionnel) */
+    color: red}
+h2{
+        font-size: 2rem; /* Taille du titre */          
+        text-align: center; /* Alignement du texte au centre (optionnel) */
+        color: rgb(0, 0, 0)}
+p{
+    font-size: 1.5rem; /* Taille du titre */          
+    text-align: center; /* Alignement du texte au centre (optionnel) */
+    color: rgb(0, 0, 0)
+}        
+.dd1{
+    margin: 0;
+    height: 15vh; /* Hauteur de la fenêtre */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;    /* Centre verticalement */
+}              
+input {
+    background-color: rgb(255, 255, 255);
+    font-family: inherit;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; 
+    font-size: 1rem; /* Taille du texte */
+    height: 50px;      /* Hauteur de l'input */
+    width: 50%;        /* Largeur de l'input */
+    padding: 10px 10px;   /* Espacement interne */
+    box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2); /* Ombre subtile */ 
+}
